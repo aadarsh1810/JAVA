@@ -32,3 +32,11 @@ Part 2: Implementing a simple menu driven calculator in java to implement add, s
 power, mean, variance. Implement a separate Calculator class to include all related function inside
 that class. (mean calculation: program reads numbers from the keyboard, summing them in the
 process until the user enters the string “end”. It then stops input & displays the avg. of numbers)
+
+main() method: This is the main method of the program that executes when the program runs. It takes input from the user and performs the corresponding calculation based on the user's choice.
+
+Scanner class: This class is used to read input from the user. It is imported at the beginning of the code with the java.util.* import statement.
+
+Math class: This class provides various mathematical functions, such as sqrt and pow, used in the code. It is imported at the beginning of the code with the java.lang.* import statement.
+
+switch statement: This statement is used to execute a block of code based on the value of a variable. In this code, the variable is i, which represents the user's choice.
